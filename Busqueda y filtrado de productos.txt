@@ -1,0 +1,17 @@
+Búsqueda y filtrado de productos
+
+El objetivo principal de esta función dentro del catálogo de productos es permitir a los usuarios buscar productos y aplicar filtros avanzados para refinar los resultados según diferentes criterios, como nombre, categoría, precio y disponibilidad.
+
+Dentro de este apartado, se incluyen los siguientes componentes:
+
+- Barra de búsqueda: El usuario podrá ingresar un término de búsqueda, y la plataforma mostrará los productos que coincidan con ese término en los campos relevantes. Cuando el usuario ingrese una palabra clave, la plataforma realizará una consulta a la base de datos para buscar productos cuyos campos de nombre o descripción contengan ese término. Los resultados se mostrarán inmediatamente en la página.
+
+- Filtros: Los usuarios podrán aplicar una serie de filtros para limitar los resultados según diferentes atributos de los productos. Los filtros deben ser totalmente combinables, lo que significa que los usuarios podrán seleccionar varios criterios al mismo tiempo. Los filtros incluirán los siguientes elementos:
+
+	- Categoría: Permite filtrar productos por categorías específicas.
+
+	- Precio: El usuario podrá seleccionar un rango de precios.
+
+	- Disponibilidad: Ofrece opciones para filtrar según el estado del inventario, como 	"En stock" o "Agotado".
+
+- Resultados: Una vez que el usuario aplique filtros o realice una búsqueda, los resultados de los productos deben actualizarse dinámicamente, sin necesidad de recargar toda la página. 
