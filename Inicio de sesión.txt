@@ -1,0 +1,36 @@
+Inicio de sesión
+
+Objetivo: Proporcionar a los usuarios una experiencia de inicio de sesión segura y sencilla, permitiéndoles acceder a sus cuentas para realizar búsquedas, gestionar pedidos y usar funcionalidades avanzadas como el filtrado de productos.
+
+Componentes clave del formulario de inicio de sesión:
+
+    1.Formulario de Login
+    Un formulario simple pero efectivo que permite a los usuarios iniciar sesión con su correo electrónico y contraseña.
+        -Correo electrónico: Campo de entrada para la dirección de correo electrónico.
+        -Contraseña: Campo de entrada de tipo contraseña para asegurar la privacidad.
+        -Recordarme (opcional): Casilla de verificación para que el usuario permanezca conectado, si así lo desea.
+
+    2.Botón de inicio de sesión
+        -Botón que, al ser presionado, envía la información para verificar las credenciales y permite el acceso si son válidas.
+
+    3.Olvidé mi contraseña
+        -Un enlace para la recuperación de contraseñas, redirigiendo a los usuarios a una página de recuperación donde pueden ingresar su correo electrónico para recibir un enlace de restablecimiento.
+
+    4.Registro de nuevos usuarios
+        -Enlace para que los nuevos usuarios puedan crear una cuenta, redirigiéndolos a un formulario de registro.
+
+    5.Acceso con redes sociales (opcional)
+        -Posibilidad de autenticarse usando cuentas de redes sociales como Google o Facebook para un acceso más rápido.
+
+Comportamiento de la página:
+
+    1.Validación en tiempo real: A medida que el usuario ingresa el correo electrónico y la contraseña, la plataforma verifica automáticamente que el correo tenga un formato válido y que la contraseña cumpla con los requisitos mínimos de seguridad (si se requieren).
+
+    2.Mensajes de error: Si el usuario intenta iniciar sesión con datos incorrectos o el servidor no reconoce las credenciales, la plataforma muestra mensajes de error claros (por ejemplo, “Correo o contraseña incorrectos”).
+
+    3.Seguridad:
+        -Cifrado de contraseñas al enviarse al servidor para proteger la información del usuario.
+        -Mecanismo de protección contra múltiples intentos fallidos para prevenir ataques de fuerza bruta.
+
+Después del inicio de sesión:
+El usuario será redirigido a la página principal o al catálogo de productos, donde podrá buscar y aplicar filtros para encontrar productos específicos dentro de la ferretería, aprovechando los criterios avanzados de búsqueda y filtrado del catálogo.

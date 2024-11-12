@@ -1,0 +1,40 @@
+Registro de nuevos usuarios
+
+Objetivo: Permitir que los nuevos usuarios creen una cuenta de manera rápida y segura, facilitando su acceso a las funciones avanzadas de búsqueda, filtrado de productos y administración de pedidos.
+
+Componentes clave del formulario de registro:
+
+    1.Formulario de Registro
+        -Nombre Completo: Campo de entrada para el nombre completo del usuario.
+        -Correo Electrónico: Campo de entrada para la dirección de correo electrónico, que servirá como identificador único de la cuenta y será utilizado para la recuperación de contraseña.
+        -Contraseña: Campo de entrada de tipo contraseña. Debe tener requisitos de seguridad mínimos (como longitud mínima y combinación de caracteres).
+        -Confirmar Contraseña: Campo de entrada para verificar la coincidencia de la contraseña ingresada, evitando errores de tipografía.
+
+    2.Dirección de Envío (opcional)
+        -Dirección Completa: Campo para que el usuario pueda ingresar su dirección (si decide guardarla), lo cual facilita el proceso de pago para futuras compras.
+        -Ciudad, Estado y Código Postal: Subcampos para completar los detalles de ubicación.
+
+    3.Botón de Registro
+        -Botón que, al ser presionado, envía los datos al servidor para crear la cuenta, validando previamente que todos los campos obligatorios estén completos y sean válidos.
+
+    4.Política de Privacidad y Términos de Servicio
+        -Checkbox de aceptación de términos, donde el usuario debe confirmar que está de acuerdo con la política de privacidad y los términos de servicio de la plataforma antes de registrarse.
+        -Enlace directo a los términos de servicio y política de privacidad, para que el usuario pueda revisarlos antes de aceptar.
+
+    5.Registro con Redes Sociales (opcional)
+        -Opciones para crear una cuenta usando Google o Facebook, para una experiencia de registro más rápida.
+
+Comportamiento de la página:
+
+    1.Validación en tiempo real: A medida que el usuario completa el formulario, la plataforma valida que el correo tenga un formato adecuado y que las contraseñas cumplan con los requisitos de seguridad. También se verifica que la confirmación de contraseña coincida.
+
+    2.Mensajes de error y éxito:
+        -Si el usuario intenta registrarse con un correo electrónico ya en uso, se mostrará un mensaje de advertencia.
+        -Una vez completado el registro correctamente, el usuario verá un mensaje de éxito y será redirigido a la página principal o al inicio de sesión.
+
+    3.Seguridad:
+        -Cifrado de contraseñas antes de enviarse al servidor para proteger la información del usuario.
+        -Protección contra el uso de correos electrónicos inválidos o maliciosos, utilizando verificación de correo electrónico (por ejemplo, enviando un enlace de confirmación).
+
+Después del registro:
+Tras un registro exitoso, el usuario podrá iniciar sesión y acceder al catálogo de productos de la ferretería, pudiendo usar las herramientas avanzadas de búsqueda y filtrado para localizar productos de interés rápidamente. También tendrá acceso a su perfil, donde podrá actualizar su información, ver su historial de compras y gestionar direcciones de envío.
