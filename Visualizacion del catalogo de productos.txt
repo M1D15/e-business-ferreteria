@@ -1,0 +1,20 @@
+Visualización del catálogo de productos
+
+El objetivo principal de esta función dentro del catálogo de productos es permitir que los usuarios vean de manera clara y organizada todos los productos disponibles en la ferretería. Esta visualización incluirá detalles clave sobre cada producto, como su nombre, imagen, descripción, precio por unidad y disponibilidad, lo que facilitará la decisión de compra.
+
+Dentro de este apartado tendrá los componentes de:
+
+- Listado de productos: La visualización principal del catálogo se presentará en forma de lista o cuadrícula, donde cada producto estará representado por los siguientes elementos:
+	
+	- Imagen del producto: Una imagen clara y de alta calidad que represente el producto 	de manera precisa. Esto ayudará al cliente a reconocer fácilmente el artículo.
+
+	- Nombre del producto: El nombre debe ser breve y descriptivo, permitiendo que el 	usuario identifique rápidamente el producto.
+
+	- Descripción del producto: Una breve descripción que proporcione detalles esenciales 	sobre el producto, como sus características, usos y beneficios. Esta descripción 	puede incluir especificaciones técnicas si es necesario.
+
+	- Precio por unidad: El precio será claramente visible junto a cada producto para que 	los usuarios puedan tomar decisiones informadas. Puede incluir descuentos o 	promociones si aplican.
+
+	- Disponibilidad: Se mostrará si el producto está en stock o agotado. Si el producto	no está disponible, puede ofrecerse una opción para que el usuario reciba una 	notificación cuando el producto vuelva a estar en existencia.
+
+Funcionalidad adicional:
+- Paginación: Los productos se dividirán en varias páginas con un número fijo de productos por página. Esto ayudará a mantener la página ligera y rápida.
